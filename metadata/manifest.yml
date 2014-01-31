@@ -1,0 +1,18 @@
+Cartridge-Short-Name: JBossAS6Plugin
+Display-Name: JBossAS6 Cartridge Test
+Source-Url: https://github.com/mvanhulsentop/test.git
+Description: "Jboss Application Server Test"
+Version: '0.2'
+License: "None"
+Vendor: Maarten van Hulsentop
+Cartridge-Version: 0.2.0
+Cartridge-Vendor: mvanhulsentop
+Categories:
+  - plugin
+Requires:
+  - jbossas6
+Group-Overrides:
+  - components:
+    - jbossas6
+Provides:
+  - jbossas6test
