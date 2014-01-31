@@ -11,7 +11,7 @@ Cartridge-Vendor: mvanhulsentop
 Categories:
   - plugin
 Requires:
-  - jbossas6
+  - https://raw2.github.com/mvanhulsentop/jbossas6cartridge/master/metadata/manifest.yml
 Group-Overrides:
   - components:
     - jbossas6
