@@ -14,6 +14,6 @@ Requires:
   - https://raw2.github.com/mvanhulsentop/jbossas6cartridge/master/metadata/manifest.yml
 Group-Overrides:
   - components:
-    - jbossas6
+    - https://raw2.github.com/mvanhulsentop/jbossas6cartridge/master/metadata/manifest.yml
 Provides:
-  - jbossas6test
+  - jbossastest6
